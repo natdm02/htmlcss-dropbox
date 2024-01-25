@@ -34,6 +34,15 @@ h3{
   margin-bottom: 40px;
 }
 
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  color: white;
+}
+
 .flexing{
   display: flex;
 }
@@ -51,7 +60,7 @@ h3{
 
 /* id  */
 #lavander {
-  background-color: #8ea1e1;
+  background-color: white;
   color: white;
 }
 
@@ -88,7 +97,7 @@ footer{
   
   div.top-footer{
     padding-bottom: 30px;
-    border-bottom: solid 2px #8ea1e1;
+    border-bottom: solid 2px white;
     margin-bottom: 20px;
   }
   

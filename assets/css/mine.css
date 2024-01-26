@@ -237,39 +237,39 @@ a{
 }
 
 
-.text-table{
+.testo-tabella{
   flex-direction: column;
   margin: 50px 30px;
   font-weight: 600;
 }
 
 
-.text-table h3{
+.testo-tabella h3{
   font-size: 1.5rem;
   padding-bottom: 10px;
 }
 
-.text-table .soldi li{
+.testo-tabella .soldi li{
   line-height: 30px;
   padding-bottom: 30px;
-  font-size: 14px;
+  font-size: 15px;
 }
 
-.text-table .soldi li p{
+.testo-tabella .soldi li p{
   font-weight: 600;
 }
 
-.text-table .price li span{
+.testo-tabella .price li span{
   color:var(--grigio);
   font-weight: 600;
 }
 
-.text-table .bundle div{
-  font-size: 14px;
+.testo-tabella .bundle div{
+  font-size: 15px;
   padding: 10px 0;
 }
 
-.text-table .bundle div i{
+.testo-tabella .bundle div i{
   padding-top: 3px;
 }
 
@@ -283,10 +283,26 @@ a{
 
 .lsd a{
   color:var(--white);
-  font-size: 14px;
+  font-size: 15px;
 }
 
+.piano{
+  font-size: 15px;
+}
 
+.piano h4{
+  padding-bottom: 10px;
+}
+
+.piano div{
+  margin: 20px 0;
+}
+
+.piano div i{
+  color:var(--azzurro);
+  padding-top: 3px;
+  font-size: 1rem;
+}
 
 
 

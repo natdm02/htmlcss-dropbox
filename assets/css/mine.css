@@ -6,6 +6,7 @@
   --black:black;
   --azzurro:#0061ff;
   --azzurro-chiaro:#b4d0e7;
+  --grigio:#757575;
 
 }
 
@@ -40,6 +41,15 @@ a{
 .container{
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* id  */
+#acquista{
+  font-size: 0.9rem;
+}
+
+#acquista a{
+  text-decoration: underline;
 }
 
 
@@ -212,18 +222,69 @@ a{
   text-align: center;
   display:inline-block;
   padding: 5px;
-  border-bottom: 1px solid  var(--white-sporco);
+  border-bottom: 2px solid  var(--white-sporco);
 
+}
+
+.su-tabella p{
+  display: inline-block;
 }
 
 .colonna{
   flex-direction: column;
-  width: 300px;
-  border: 1px solid var(--white-sporco);
+  width: 250px;
+  border: 2px solid var(--white-sporco);
 }
 
 
+.text-table{
+  flex-direction: column;
+  margin: 50px 30px;
+  font-weight: 600;
+}
 
+
+.text-table h3{
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.text-table .soldi li{
+  line-height: 30px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+
+.text-table .soldi li p{
+  font-weight: 600;
+}
+
+.text-table .price li span{
+  color:var(--grigio);
+  font-weight: 600;
+}
+
+.text-table .bundle div{
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.text-table .bundle div i{
+  padding-top: 3px;
+}
+
+.lsd{
+  justify-content: center;
+  padding: 12px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  background-color:var(--azzurro);
+}
+
+.lsd a{
+  color:var(--white);
+  font-size: 14px;
+}
 
 
 

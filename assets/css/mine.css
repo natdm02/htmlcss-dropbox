@@ -14,6 +14,10 @@ body{
   display: flex;
 }
 
+.inline-block{
+  display: flex;
+}
+
 li{
   list-style: none;
 }
@@ -30,36 +34,41 @@ a{
 
 /* ------------------------------------------header------------------------------------------*/
 
-header{
-  position: sticky;
-  top: 0;
-  background-color: white;
-  height: 80px;
-}
-
 
 .capacity{
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-  padding: 20px;
+  position: sticky;
+  height: 80px;
+  top: 0;
+  background-color: white;
 }
 
-.capacity img{
+
+.lead{
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.logo{
+  flex-shrink: 40px;
+}
+
+.lead img{
   padding-right: 40px;
 }
 
-.capacity nav{
+.lead nav{
   align-items: center;
 }
 
-.capacity nav ul li{
+.lead nav ul li{
   font-weight: 500;
   padding-right: 40px;
   display: inline-block;
 }
 
-.capacity nav ul li a{
+.lead nav ul li a{
   color: black;
 }
 
@@ -139,6 +148,46 @@ header{
 
 
 
+/*---------------- main-----------------  */
+
+.business{
+  margin-top: 100px;
+}
+
+.md-container{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.business .md-container h2{
+  font-size: 2rem;
+}
+
+.business .md-container .col-sm{
+  display: inline-block;
+  padding-right: 80px;
+  padding-bottom: 60px;
+  font-weight: 600;
+}
+
+.business .md-container .col-ms{
+  display: inline-block;
+  padding-right: 50px;
+  font-weight: 600;
+}
+
+.business .md-container .row .col-sm i {
+  color: #0061ff;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.business .md-container .row .col-ms i{
+  color: #d0d0d3;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+/* fine piano business  */
 
 
 
@@ -169,4 +218,6 @@ header{
 
 
 /*----------------------------------------- footer -------------------------------------------- */
+
+
 

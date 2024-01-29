@@ -5,9 +5,13 @@
   --white-sporco:#d9d9dc;
   --black:black;
   --azzurro:#0061ff;
+  --azzurro-pastello:#0093ce;
   --azzurro-chiaro:#b4d0e7;
   --grigio:#757575;
-
+  --grigio-chiaro:rgba(255, 255, 255, 0.5);
+  --verdino:#a2d39b;
+  --magenta:#61082b;
+  --rosso: red;
 }
 
 * {
@@ -431,8 +435,6 @@ a{
 
 }
 
-
-
 .team h1{
   width: 60%;
   font-size: 2.4rem;
@@ -444,6 +446,69 @@ a{
   margin-top: 80px ;
   text-decoration: underline;
 }
+
+
+/* quadrati  */
+
+.promotore .big-quadrato{
+  width: calc(100% / 3);
+  aspect-ratio: 1/1;
+  height: auto;
+}
+
+.big-quadrato{
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+}
+
+.quadrato{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: calc(100% / 2);
+}
+
+
+.designit{
+  background-color: var(--verdino);
+}
+
+.designit img{
+  width: 50%;
+  height: 20%;
+  filter: brightness(0) invert(1);
+}
+
+.arizona{
+  background-color: var(--magenta);
+}
+
+.arizona img{
+  width: 50%;
+  height: 50%;
+  filter: brightness(0) invert(1);
+}
+
+.florida{
+  background-color: var(--azzurro-pastello);
+}
+
+.florida img{
+  width: 50%;
+  height: 10%;
+  filter: brightness(0) invert(1);
+}
+
+.topps{
+  background-color: var(--rosso);
+}
+
+.topps img{
+  width: 50%;
+  height: 20%;
+  filter: brightness(0) invert(1);
+}
+
 
 
 
@@ -501,6 +566,6 @@ footer{
   color: var(--grigio);
   padding-bottom: 40px;
 }
-
+/* end  */
 
 

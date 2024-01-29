@@ -12,6 +12,7 @@
   --verdino:#a2d39b;
   --magenta:#61082b;
   --rosso: red;
+  --giallo:yellow;
 }
 
 * {
@@ -448,7 +449,7 @@ a{
 }
 
 
-/* quadrati  */
+/* quadrati a sinistra */
 
 .promotore .big-quadrato{
   width: calc(100% / 3);
@@ -466,6 +467,12 @@ a{
   justify-content: center;
   flex-wrap: wrap;
   width: calc(100% / 2);
+}
+
+.quadrato:hover{
+  box-shadow: inset 0 0 0 20px var(--grigio-chiaro);
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 
@@ -506,6 +513,70 @@ a{
 .topps img{
   width: 50%;
   height: 20%;
+  filter: brightness(0) invert(1);
+}
+
+/* testo centrale  */
+
+.text-designit{
+  padding: 50px;
+}
+
+.text-designit img{
+  width: 250px;
+}
+
+.text-designit .linea{
+  width: 100px;
+}
+
+.text-designit p{
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.overflow{
+  overflow: auto;
+}
+
+/* quadrati a destra  */
+.world{
+  background-color: var(--rosso);
+}
+
+.world img{
+  width: 50%;
+  height: 20%;
+  filter: brightness(0) invert(1);
+}
+
+.hearst{
+  background-color:var(--azzurro-chiaro);
+}
+
+.hearst img{
+  width: 50%;
+  height: 50%;
+  filter: brightness(0) invert(1);
+}
+
+.lonely{
+  background-color: var(--azzurro);
+}
+
+.lonely img{
+  width: 50%;
+  height: 40%;
+  filter: brightness(0) invert(1);
+}
+
+.clear{
+background-color: var(--giallo);
+}
+
+.clear img{
+  width: 50%;
+  height: 50%;
   filter: brightness(0) invert(1);
 }
 

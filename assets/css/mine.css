@@ -399,7 +399,7 @@ a{
 }
 
 
-/* Card */
+/* ------------card----------------*/
 
 .container-oper{
   max-width: 1000px;
@@ -446,7 +446,10 @@ a{
 .team p{
   margin-top: 80px ;
   text-decoration: underline;
+  margin-bottom: 200px;
 }
+
+
 
 
 /* quadrati a sinistra */
@@ -516,7 +519,7 @@ a{
   filter: brightness(0) invert(1);
 }
 
-/* testo centrale  */
+/*------------testo centrale ---------------*/
 
 .text-designit{
   padding: 50px;
@@ -539,7 +542,7 @@ a{
   overflow: auto;
 }
 
-/* quadrati a destra  */
+/*-------------------------------------------quadrati a destra------------------------------*/
 .world{
   background-color: var(--rosso);
 }
@@ -581,38 +584,71 @@ background-color: var(--giallo);
 }
 
 
+/*----------------------------------prova gratuita--------------------------------------- */
 
 
+.azienda{
+  background-color: var(--azzurro-chiaro);
+  height: 350px;
+  padding: 135px;
+}
 
+.azienda .md-container .sinistra{
+  width: 60%;
+}
 
+.azienda .md-container .destra{
+  width: 40%;
+}
 
+.azienda .md-container .sinistra h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color:var(--magenta);
+}
 
+.azienda .md-container .destra p{
+  text-align: center;
+}
 
+.azienda .md-container .destra p a{
+  background-color:var(--white);
+  padding: 10px 50px;
+  color: var(--black);
+  font-weight: 500;
+}
+/*----------------------------------domande frequenti ----------------------------------- */
+.domande{
+  padding: 160px;
+}
 
+.last h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  border-bottom: 1px solid var(--grigio);
+  padding-bottom: 70px;
+}
 
+.last .standard{
+  padding: 45px 0;
+  border-bottom: 1px solid var(--grigio);
+  justify-content: space-between;
+}
 
+.last .standard span{
+  font-weight: 800;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.show-text span{
+  padding-right: 300px;
+}
 
 
 
 /*----------------------------------------- footer -------------------------------------------- */
 
 footer{
-  padding-top: 90px;
+  padding-top: 150px;
   background-color: var(--black);
 }
 

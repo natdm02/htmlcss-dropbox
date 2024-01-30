@@ -450,8 +450,6 @@ a{
 }
 
 
-
-
 /* quadrati a sinistra */
 
 .promotore .big-quadrato{
@@ -672,6 +670,12 @@ footer{
 .earth-footer{
   color: var(--grigio);
   padding-bottom: 40px;
+}
+
+.lin-foot .linea{
+  margin-top: 120px;
+  width: 120px;
+  border: 1px solid var(--grigio);
 }
 /* end  */
 
